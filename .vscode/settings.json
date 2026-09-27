@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.jj": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/c:\\Users\\S1icksim\\OneDrive\\Documents\\GitHub\\Resumev2\\resume.aux": true,
+        "**/c:\\Users\\S1icksim\\OneDrive\\Documents\\GitHub\\Resumev2\\resume.log": true,
+        "**/c:\\Users\\S1icksim\\OneDrive\\Documents\\GitHub\\Resumev2\\resume.gz": true,
+        "**/c:\\Users\\S1icksim\\OneDrive\\Documents\\GitHub\\Resumev2\\resume.out": true
+    }
+}

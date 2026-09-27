@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  27 SEP 2026 18:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.27)  27 SEP 2026 18:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -136,26 +136,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-[1
 
-{C:/Users/S1icksim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
- ***********
-LaTeX2e <2026-06-01>
-L3 programming layer <2026-08-10>
- ***********
- ) 
+c:/Users/S1icksim/OneDrive/Documents/GitHub/Resumev2/resume.tex:23: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23     \item A
+                ssessed a company’s practices for compliance with HIPAA re...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/S1icksim/OneDrive/Documents/GitHub/Resumev2/resume.tex:41: Undefined control sequence.
+\reserved@a ->\@nil 
+                    
+l.41     \item E
+                ngineered a functional pinball machine from the ground up, i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/S1icksim/OneDrive/Documents/GitHub/Resumev2/resume.tex:41: Use of \@item doesn't match its definition.
+\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
+                                                  \def \reserved@b {#3}\futu...
+l.41     \item E
+                ngineered a functional pinball machine from the ground up, i...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+)
+! Incomplete \iffalse; all text was ignored after line 41.
+<inserted text> 
+                \fi 
+<*> ...eDrive/Documents/GitHub/Resumev2/resume.tex
+                                                  
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+! Emergency stop.
+<*> ...eDrive/Documents/GitHub/Resumev2/resume.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 1937 strings out of 467441
- 32203 string characters out of 5406133
- 458724 words of memory out of 5000000
- 31273 multiletter control sequences out of 15000+600000
+ 1929 strings out of 467441
+ 32030 string characters out of 5406133
+ 451724 words of memory out of 5000000
+ 31267 multiletter control sequences out of 15000+600000
  631421 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,5n,79p,628b,178s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/S1icksim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/S1icksim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/S1icksim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/S1icksim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/S1icksim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 78907 bytes).
-PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 72i,1n,79p,628b,182s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
